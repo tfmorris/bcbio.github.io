@@ -76,7 +76,7 @@ bioinformatics libraries like the [bwa](https://github.com/lh3/bwa) aligner and
 [fermi](https://github.com/lh3/fermi-lite) assembler, under a consistent C++
 API. Since the SeqLib/htslib interface has faster and lighter BAM readinga and
 writing compared to the previous BamTools implementation, this reduces memory
-usage and increases runtimes by 3x. The validations show that the FreeBayes
+usage and decreases runtimes by 2/3. The validations show that the FreeBayes
 SeqLib results in 1.1.0 are equivalent to those from the previous validated
 version (1.0.2-29).
 
